@@ -43,10 +43,10 @@ sudo nano /usr/lib/systemd/system/systemd-sysusers.service
 LoadCredential=
 ```
 
-Open the file (~ /.zshrc or ~/.bashrc) and paste the code on top
+Open the file (~ /.zshrc, ~/.profile or ~/.bashrc) and paste the code on top
 
 ```shell
-sudo nano ~/.zshrc
+sudo nano ~/.profile
 ```
 
 ```shell
@@ -130,7 +130,6 @@ sudo apt install code # or code-insiders
 ```shell
 sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 sh -c "$(curl -fsSL https://git.io/zinit-install)"
 
 mkdir meslo
