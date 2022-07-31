@@ -1,7 +1,7 @@
 **Post installation** 
 
 ```terminal
-     yarn add -dev husky lint-staged stylelint stylelint-config-standard-scss stylelint-config-prettier-scss prettier stylelint-order stylelint-config-rational-order semantic-release postcss postcss-scss @ngneat/spectator 
+     yarn add -dev husky lint-staged stylelint stylelint-config-standard-scss stylelint-config-prettier-scss prettier stylelint-order stylelint-config-rational-order semantic-release postcss postcss-scss @ngneat/spectator  @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/git @semantic-release/github
 ```
 
 Include engine
